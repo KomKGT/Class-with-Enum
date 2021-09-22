@@ -19,7 +19,7 @@ public:
 
 void QSerialPort::chooseBuadRate(QSerialPort::BuadRate buadrate)
 {
-	cout<<buadrate;
+	cout<<buadrate; // Output = 115200
 }
 int main(int argc, char** argv) {
 	class QSerialPort s1;
